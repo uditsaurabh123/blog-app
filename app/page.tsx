@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { WhatNext } from "@/components/compositions/WhatNext";
+import { Button } from "@/components/ui/button";
 
 export default function IndexPage() {
   const siteKey = process.env.ARCJET_SITE ? process.env.ARCJET_SITE : null;

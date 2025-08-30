@@ -5,6 +5,7 @@
 @import url("./reset.css");
 @import "@fontsource-variable/figtree";
 
+
 @property --palette-black {
   syntax: "<color>";
   inherits: false;

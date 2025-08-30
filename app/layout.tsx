@@ -8,11 +8,12 @@ import LogoLight from "@/assets/logo-light.svg";
 import { siteConfig } from "@/config/site";
 
 import "@/styles/styles.css";
+import '@/styles/globals.css';
 import { IconCancel } from "@/components/icons/Cancel";
 import { IconMenu } from "@/components/icons/Menu";
 import { NavLink } from "@/components/NavLink";
 import { PopoverTarget } from "@/components/PopoverTarget";
-
+import { Button } from '@mui/material'
 export const metadata: Metadata = {
   title: {
     default: siteConfig.name,

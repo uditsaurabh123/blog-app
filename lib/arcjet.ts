@@ -6,6 +6,7 @@ import arcjet, {
   shield,
   slidingWindow,
 } from "@arcjet/next";
+import { cleanRegex } from "zod/v4/core/util";
 
 // Re-export the rules to simplify imports inside handlers
 export {
@@ -16,7 +17,7 @@ export {
   shield,
   slidingWindow,
 };
-
+console.log(process.env.ARCJET_KEY)
 // Create a base Arcjet instance for use by each handler
 export default arcjet({
   // Get your site key from https://app.arcjet.com
